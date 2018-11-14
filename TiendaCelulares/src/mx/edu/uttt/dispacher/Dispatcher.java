@@ -5,10 +5,38 @@
  */
 package mx.edu.uttt.dispacher;
 
+import javax.swing.JOptionPane;
+import mx.edu.uttt.vistas.VistaLogin;
+import mx.edu.uttt.vistas.VistaMenuA;
+import mx.edu.uttt.vistas.VistaMenuV;
 /**
  *
  * @author Marisol
  */
 public class Dispatcher {
-    
+
+    public void dispatcher(String petision) {
+        switch (petision) {
+            case "admin":
+                VistaMenuA v = new VistaMenuA();
+                v.setVisible(true);
+                break;
+            case "public":
+                VistaMenuV vv = new VistaMenuV();
+                vv.setVisible(true);
+                break;
+            case "login":
+                VistaLogin l = new VistaLogin();
+                l.setVisible(true);
+                break;
+            case "Icon":
+                JOptionPane.showMessageDialog(null, "Contraseña incorrecta");
+                break;
+            case "Ius":
+                JOptionPane.showMessageDialog(null, "Usuario incorrecto");
+                break;
+            default:
+                JOptionPane.showMessageDialog(null, "Error intente de duevo");
+        }
+    }
 }
