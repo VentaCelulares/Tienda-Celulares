@@ -19,4 +19,16 @@ public class FrontControlerAdministrador {
     Dispatcher d=new Dispatcher();
     d.dispatcher("salir");
     }
+    public void login(){
+    Dispatcher d=new Dispatcher();
+    d.dispatcher("login");
+    }
+        public void vender(){
+    Dispatcher d=new Dispatcher();
+    d.dispatcher("vender");
+    }
+    public void agregar(){
+    Dispatcher d=new Dispatcher();
+    d.dispatcher("agregar");
+    }
 }
