@@ -35,6 +35,18 @@ public class Dispatcher {
             case "Ius":
                 JOptionPane.showMessageDialog(null, "Usuario incorrecto");
                 break;
+            case "salir":
+                System.exit(0);
+                break;
+            case "vender":
+                JOptionPane.showMessageDialog(null, "Se vendió el celular");
+                break;
+            case "agregar":
+                JOptionPane.showMessageDialog(null, "Se agregó el celular");
+                break;
+            case "nlogin":
+                JOptionPane.showMessageDialog(null, "No se pudo ingresar intentede nuevo");
+                break;
             default:
                 JOptionPane.showMessageDialog(null, "Error intente de duevo");
         }
