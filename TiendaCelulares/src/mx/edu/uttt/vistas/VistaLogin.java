@@ -5,11 +5,11 @@
  */
 package mx.edu.uttt.vistas;
 
-import mx.edu.uttt.frontControler.FrontControlerLogin;
+import mx.edu.uttt.FrontControler.FrontControlerLogin;
 
 /**
  *
- * @author crist
+ * @author Perla
  */
 public class VistaLogin extends javax.swing.JFrame {
 

@@ -5,11 +5,11 @@
  */
 package mx.edu.uttt.vistas;
 
-import mx.edu.uttt.frontControler.FrontControlerAdministrador;
+import mx.edu.uttt.FrontControler.FrontControlerAdministrador;
 
 /**
  *
- * @author crist
+ * @author Perla
  */
 public class VistaMenuV extends javax.swing.JFrame {
 
